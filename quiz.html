@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="normalize.css" type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style5.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&family=Outfit:wght@200&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
         <title>ID Assignment 1</title>
         <body style="background-color: rgb(20, 20, 20)"></body>
@@ -27,7 +27,7 @@
         </div>
     </header>
 
-<!--bubbles-->
+    <!--bubbles-->
     <ul class="bubbles">
         <li class="orange"></li>
         <li class="yellow"></li>
@@ -39,30 +39,37 @@
         <li class="grey"></li>
     </ul>
 
-<!--aboutme-->
-<section class="about" id="welcome">
-    <div class="max-width">
-        <div class="mepic">
-            <div class="meorang">
-                <img src="Pictures/wooorang.jpeg" alt="its-me-but-orange!" width="700" height="700">
+    <div class="quiz">
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Questions</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">answer</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">answer</label>
+                    </li>
+                </ul>
             </div>
-            <div class="itsme">
-                <img src="Pictures/woodesert.jpeg" alt="its-me!" width="550" height="700">
-            </div>
+            <button id="submit">Submit</button>
         </div>
-        <div class="abouttext">
-            <h2>This is me!</h2>
-            I am Rovee, a student in NP<span class="specialtext"></span>
-            <span class="typed"></span>
-            <div class="flexbox-1">
-                <h2 class="abtme">About me</h2>
-                <p class="shortpara">
-                 I am a team player that has participated in many competitions and held many leadership roles throughout my life. Such as the Deputy Sports Leader and Head Captain for my school team. I’ve been in charge of many different events and have learned how to overcome various hardships due to these experiences which have shaped me into a determined individual who will rise up to a challenge.
-                </p>
-            </div>
-        </div>
-</section>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>

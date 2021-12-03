@@ -26,6 +26,7 @@ Design Features:
         > Animated buttons for transition from page to page. (Aesthetics)
         > A flexible web design that fits on various devices. E.g IPhone, Samsung, Pixel, etc.
         > Perhaps instead of rectagle/box shaped images, I should make them circular/more rounded.
+        > A functioning quiz using javascript
 
 Technologies used:
     1. html
@@ -50,4 +51,4 @@ Credits:
         All original and done by me.
     > Acknowledgements:
         1. Inspiration for animated circles goes to: Web Design Inspiration - https://www.youtube.com/watch?v=JvXt8gCK6Iw&t=67s
-        2. Inspiration for __ page goes to: 
+        2. Inspiration for javascript goes to: Coding market - https://youtu.be/WY4rvU4ImgE

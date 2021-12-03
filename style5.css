@@ -80,7 +80,7 @@
     width: 20px;
     height: 20px;
     border-radius: 70%;
-    animation: animate 25s linear infinite;
+    animation: scale 25s linear infinite;
     bottom: -150px;
 }
 
@@ -162,7 +162,7 @@
     animation-direction: 12s;
 }
 
-@keyframes animate{
+@keyframes scale {
     0%{
         transform: translateY(0) rotate(0deg);
     }
@@ -171,81 +171,64 @@
     }
 }
 
-/*pictures*/
-.meorang{
+/*quiz*/
+.quiz{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: honeydew;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(248, 127, 71);
+    color: seashell;
+    border: none;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    max-width: 100%;
-    position: relative;
-    opacity: 1;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.3rem;
 }
 
-.itsme{
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 42%;
-    top: 120px;
-    right: 30px;
-    height: auto;
-    position: absolute;
-    border-radius: 80%;
-    opacity: 1;
+button.hover{
+    background-color: rgb(255, 102, 0);
 }
 
-/*description*/
-.flexbox-1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: auto;
-    height: 200px;
-    position: relative;
-    top: 100px;
-    border-style: double;
-}
-
-.abtme {
-    color: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    font-size: 30px;
-    text-decoration: underline;
-    bottom: -20px;
-}
-
-.shortpara{
-    color: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:flex-start;
-    position: relative;
-    padding: 40px;
-    font-size: 20px;
-    top: -10px;
-}
-
-@media screen and (min-width: 25em){
-     .about{
-        display: flex;
-        flex-wrap: wrap;
-	}
-}
-
-@media (min-device-width:25em) {
-    .img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
+button:focus{
+    outline: none;
+    background-color: rgb(255, 162, 133)
 }

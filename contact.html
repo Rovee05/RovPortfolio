@@ -22,6 +22,7 @@
                 <li><a href="skills.html" class="bar-item">Skills</a></li>
                 <li><a href="gallery.html" class="bar-item">Gallery</a></li>
                 <li><a href="contact.html" class="bar-item">Contact</a></li>
+                <li><a href="quiz.html" class="bar-item">Quiz</a></li>
             </nav>
         </div>
     </header>
@@ -46,7 +47,7 @@
     <!--Contact me-->
     <form class="answer">
         <div class="answersheet">
-            <div class="inputfields">
+            <div class="inputfields" onsubmit="return validation()">
                 <input type="text" class="input" placeholder="Name"/>
                 <input type="text" class="input" placeholder="Email"/>
                 <input type="text" class="input" placeholder="Phone"/>
@@ -57,7 +58,6 @@
                 <div class="button">Send</div>
             </div>
         </div>
-        <div id="error"></div>
     </form>
     
 </body>

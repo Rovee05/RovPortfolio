@@ -8,6 +8,7 @@
     font-family:'Outfit', sans-serif;
 }
 
+/*Nav bar*/
 .headhead{
     box-sizing: border-box;
     margin-left: auto;
@@ -62,6 +63,7 @@
     bottom: 170px;
 }
 
+/*bubbles*/
 .bubbles{
     position: absolute;
     top: 0;
@@ -170,7 +172,7 @@
     }
 }
 
-
+/*main page*/
 .answer{
     position: absolute;
     top: 50%;
@@ -249,4 +251,12 @@
     .msg{
         width: 100px;
     }
+}
+
+.talk{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 35px;
+    margin-left: 350px;
+    margin-top: 38px;
 }
