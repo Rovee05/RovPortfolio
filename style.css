@@ -239,3 +239,9 @@
         flex-wrap: wrap;
 	}
 }
+
+@media (min-device-width:25em) {
+    .img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}

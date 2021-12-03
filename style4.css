@@ -7,6 +7,7 @@
     font-family:'Outfit', sans-serif;
 }
 
+/*navbar*/
 .headhead{
     box-sizing: border-box;
     margin-left: auto;
@@ -61,6 +62,7 @@
     bottom: 170px;
 }
 
+/*bubbles*/
 .bubbles{
     position: absolute;
     top: 0;
@@ -169,6 +171,7 @@
     }
 }
 
+/*pictures*/
 .pictures{
     line-height:0;
     -webkit-column-count:5; /* split it into 5 columns */
@@ -185,9 +188,10 @@
     margin-bottom:5px; /* to match column gap */
     padding-top: 7%;
     filter: grayscale(100%);
+    transition: filter 1s;
  }
 
-.picture img:hover {
+ .pictures img:hover {
     filter:none;
  }
 

@@ -7,6 +7,7 @@
     font-family:'Outfit', sans-serif;
 }
 
+/*navbar*/
 .headhead{
     box-sizing: border-box;
     margin-left: auto;
@@ -61,6 +62,7 @@
     bottom: 170px;
 }
 
+/*bubbles*/
 .bubbles{
     position: absolute;
     top: 0;
@@ -169,6 +171,7 @@
     }
 }
 
+/*meter*/
 .meteradjust{
     top: 50%;
     left: 50%;
@@ -319,4 +322,27 @@
 
 .progress-line.uxui span::after{
     content: "70";
+}
+
+/*explain*/
+.explained{
+    color: rgb(255, 255, 255);
+}
+
+.bigname h2{
+    position: relative;
+    font-size: 30px;
+    line-height: 100px;
+    margin-right: 15%;
+    bottom: 300px; 
+    float: right;
+}
+
+.para{
+    position: relative;
+    float: right;
+    font-size: 20px;
+    margin-left: 60%;
+    bottom: 300px;
+    right: 80px;
 }
